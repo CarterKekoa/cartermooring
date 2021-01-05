@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %} <!--References blocks in base.html and will inherit the rest of the file-->
+<title>Welcome to Carter Mooring's Website</title>
+{% endblock %}
+
+{% block body %} 
+
+<h1>Welcome to Carter Mooring's Website</h1>
+<p>Last Updated: Jan. 4th, 2021</p>
+
+<h2>Here are some useful links about me: </h2>
+<div>
+    <a href='https://www.linkedin.com/in/carter-mooring-b49355172/'> My LinkedIn Page</a>
+</div>
+<div>
+    <a href='https://github.com/CarterKekoa?tab=repositories'> My Github Repositories </a>
+</div>
+
+<h2>Here are some of my Project Links: </h2>
+<div>
+    <a href='https://fiddl-dev.herokuapp.com/'> Face iD Door Lock (FiDDL) - (Currently in Development)</a>
+    <p> - This is a Personal proposal senior design project. This is a Flask web app that allows users to register an account and upload photos. These photos are stored in Google Firebase 
+        and used with OpenCV facial recognition to allow hands-free user access to their home using Google Nest Doorbell and Nuki Smart Lock API communication.
+    </p>
+</div>
+<div>
+    <a href='https://enigmatic-plains-45117.herokuapp.com/'> Music Hub MERN Full Stack Website - (Developed 2020) </a>
+    <p> - Personal study Full Study MERN (MongoDB, Express, React, Node) website complete with user registration and database.
+    </p>
+</div>
+<div>
+    <a href='https://play.google.com/store/apps/details?id=com.CarterCalc.neededfinalgrade'> Music Hub MERN Full Stack Website - (Developed 2020) </a>
+    <p> - Final Grade Calculator App developed with Android Studio to calculate what grade a user needs to get on a Final Exam to get a user-specified Final Grade in the class.
+
+    </p>
+</div>
+
+{% endblock %}
