@@ -2,9 +2,6 @@ from flask import Flask, request, url_for, redirect, render_template
 
 app = Flask(__name__)
 
-def doesnothing():
-    print("does nothing")
-
 @app.route('/')
 def mainPage():
     return render_template('main.html')
