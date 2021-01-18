@@ -1,0 +1,33 @@
+#useful-link{
+    color: black; 
+    text-decoration: none;
+}
+
+#useful-link-icon{
+    font-size: 4em; 
+    padding: 10px 10px 10px 10px;
+}
+
+#useful-link-name{
+    font-size: 3em;
+    color: black;
+    padding: 10px 20px 0px 10px;
+}
+
+#small{
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(0.8, 0.8); /* Safari and Chrome */
+    -o-transform: scale(0.8, 0.8); /* Opera */
+    -moz-transform: scale(0.8, 0.8); /* Firefox */
+}
+
+#shadow-space{
+    padding: 3px;
+}
+
+#proj-title{
+    display: block; 
+    text-align: center; 
+    font-size: 1.5em;
+}
