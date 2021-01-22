@@ -1,3 +1,37 @@
+#dm-bg{
+    background-color: #121212;
+    color: #dee2e6;
+}
+
+#dm-prmry-bg{
+    background-color: #1c1f23;
+}
+
+#dm-prmry-brdr{
+    border: 3px solid #191c1f;
+}
+
+.colors{
+    color: #343a40;
+    color: #212529;
+
+    background-color:#1c1f23; 
+    border-color:#1a1e21;
+
+    background-color: #1a1e21; 
+    border-color:#191c1f;
+
+    color:#141619; 
+    background-color:#bebebf;
+
+    background-color:#fff;
+    border-color:#dee2e6 #dee2e6 #fff;
+    color: #03DAC6;
+    color: #3700B3;
+    color: #BB86FC;
+    color: #CF6679;
+}
+
 #useful-link{
     color: black; 
     text-decoration: none;
@@ -31,3 +65,6 @@
     text-align: center; 
     font-size: 1.5em;
 }
+
+#shadow-dark{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important}

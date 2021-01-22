@@ -1,0 +1,72 @@
+{% extends 'index.html' %}
+
+<!--References blocks in base.html and will inherit the rest of the file-->
+{% block head %} 
+<html>
+    <body id="dm-bg">
+    </body>
+</html>
+{% endblock %}
+
+{% block body %}
+<!-- OTHER SECTION -->
+<section class="hero py-4" id="dm-bg">
+    <div class="container md-3">
+        <div class="row">
+            <div class="col-md-4" style="background-color: #212529; border: 1px solid #3700B3;">
+                <div class="hero-post shadow">
+                    <div class="hero-post-content">
+                        <a id="useful-link" href='https://fiddl-dev.herokuapp.com/' style="color: #dee2e6;">
+                            <h3 style="padding-top: 12px; color: #BB86FC;" id="proj-title">FiDDL (Face iD Door Lock)</h3>
+                            <p id="proj-title" style="font-size: 1em;">Currently In Development</p>
+                            <img alt="doorbell" class="img-fluid" src="static/doorbell.jpg">
+                            <div class="container" style="padding-bottom: 3px; padding-top: 3px;">
+                                <p style="color: #CF6679;"><b>(Deployment estimated to be fixed by Jan. 25)</b></p>
+                                <p> This is a Personal Proposal senior design project, Flask web app that allows users to register an account and upload photos. These photos are stored in Google Firebase 
+                                        and used with OpenCV facial recognition to allow hands-free user access to their home using Google Nest Doorbell and Nuki Smart Lock API communication.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="background-color: #1c1f23; border: 1px solid #3700B3;">
+                <div class="hero-post shadow">
+                    <div class="hero-post-content">
+                        <a id="useful-link" href='https://enigmatic-plains-45117.herokuapp.com/' style="color: #dee2e6;">
+                            <h3 style="padding-top: 12px; color: #BB86FC;" id="proj-title">Music Hub (MERN) Full Stack Website</h3>
+                            <p id="proj-title" style="font-size: 1em;">(Developed 2020)</p>
+                            <img alt="doorbell" class="img-fluid" src="static/musichub1.png">
+                            <div class="container" style="padding-bottom: 3px; padding-top: 3px;">
+                                <p> Full Stack MERN (MongoDB, Express, React, Node) website complete with user registration and database.
+                                    Users can log in and edit their profile information which consists of 'Favorite Song' and other similar categories.
+                                    This is a personal study web app that was made with the help of Udemy courses.
+                                </p>
+                            </div> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="background-color: #212529; border: 1px solid #3700B3;">
+                <div class="hero-post shadow">
+                    <div class="hero-post-content">
+                        <a id="useful-link" href='https://play.google.com/store/apps/details?id=com.CarterCalc.neededfinalgrade' style="color: #dee2e6;">
+                            <h3 style="padding-top: 12px; color: #BB86FC;" id="proj-title">Final Grade Calculator APP</h3>
+                            <p id="proj-title" style="font-size: 1em;">(Developed 2019)</p>
+                            <img alt="doorbell" class="img-fluid" src="static/FGC.png">
+                            <div class="container" style="padding-bottom: 3px; padding-top: 3px;">
+                                <p> Final Grade Calculator App developed with Android Studio to calculate what grade a user needs to get on a Final Exam to get a user-specified Final Grade in the class.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="dm-bg">
+
+</section>
+
+{% endblock %}
