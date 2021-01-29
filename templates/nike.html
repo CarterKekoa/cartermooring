@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+
+<!--References blocks in base.html and will inherit the rest of the file-->
+{% block head %} 
+<html>
+    <body id="dm-bg">
+    </body>
+</html>
+{% endblock %}
+
+{% block body %}
+<section class="hero py-4" id="dm-bg">
+    <div class="container dm-bg">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10" style="background-color: #1c1f23; ">
+                <img alt="Developer" class="img-fluid" src="static/NikePlate.JPG">
+                <div class="hero-badge">
+                    <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> Nov. 2nd, 2020</a>
+                    <a href="#">My New License Plate</a>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+{% endblock%}

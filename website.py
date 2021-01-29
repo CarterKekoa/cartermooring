@@ -21,6 +21,9 @@ def resumeDownload():
 def comingSoon():
     return render_template('comingSoon.html')
 
+@app.route('/nikePlate')
+def nikePlate():
+    return render_template('nike.html')
 
 if __name__ == "__main__":      #if running from command line, turn on dev mode
     app.run(debug=True)         #dev mode, server updates on own, shows errors
