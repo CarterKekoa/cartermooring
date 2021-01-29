@@ -14,7 +14,7 @@ def projects():
 
 @app.route('/resumeDownload')
 def resumeDownload():
-    path = "static/Resume_Updated_Jan_21st_2021.pdf"
+    path = "static/Resume_Updated_Jan_28th_2021.pdf"
     return send_file(path, as_attachment=True)
 
 @app.route('/comingSoon')
